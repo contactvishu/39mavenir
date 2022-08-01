@@ -1,0 +1,5 @@
+Below are the observations after working on the Voting App
+After we delete the voting pod, observed that another new voting pod got created and voting portal is working and result was success.
+After we delete the worker pod, observed that another new worker pod got created and voting portal is still working and result is success
+After we delete the db pod, observed that another new db pod got created and voting portal is still working but result portal is not showing the older results and also new votes.
+Since the data in the db was not backed up the older results cannot be retained.
